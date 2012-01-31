@@ -1,13 +1,20 @@
+* {
+    font-family:"Verdana";
+    font-size:12px;
+}
 .news_feed_item
 {
     width:400px;
     padding:10px;
     margin:2px;
+    border:1px solid black;
+
 }
 .link_information
 {
     margin-left:25px;
     padding:5px;
+    border:1px dashed black;
 }
 a
 {
@@ -15,8 +22,18 @@ a
     color:blue;
     font-weight:bold;
 }
+.friend_name {
+    color:green;
+    font-weight:bold;
+}
+
+a:hover {
+    color:red;
+}
 #feed_title
 {
     margin-bottom:10px;
     margin-top:5px;
+    font-size:20px;
+    font-weight:bold;
 }
