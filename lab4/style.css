@@ -1,0 +1,39 @@
+#body {
+   
+}
+
+div {
+    border: thin;
+    border-style: solid;
+}
+
+#header {
+    width:960px;
+    height:200px;
+}
+
+#left {
+    width:220px;
+    float:left;
+    height:500px;
+}
+
+#content {
+    width:740px;
+    float:left;
+    height:500px;
+}
+
+
+
+#footer {
+    width:960px;
+    float:left;
+    height:200px;
+}
+
+@media screen and (max-device-width: 480px) {
+  #left {
+    display: none;
+  }
+}

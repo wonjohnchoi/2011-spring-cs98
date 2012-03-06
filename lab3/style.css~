@@ -1,0 +1,51 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+#header {
+	background-color: red;
+    width: 950px;
+    height: 125px;
+
+}
+#content {
+	background-color: blue;
+    width: 970px;
+    height: 400px;
+}
+.contentPieces {
+	
+}
+#contentLeft {
+	background-color: yellow;
+    width: 440px;
+    height: 330px;
+}
+#contentRight {
+	background-color: orange;
+    width: 455px;
+    height: 330px;
+}
+#extra {
+	background-color: purple;
+    height: 415px;
+    width: 970px;
+}
+.extraPieces {
+	background-color: red;
+    height: 310px;
+    width: 300px;
+}
+#extraLeft {
+	
+}
+#footer {
+	background-color: green;
+    height: 65px;
+    width: 970px;
+}
+#coffee {
+	background-color: green;
+    width: 440px;
+    height: 130px;
+}
