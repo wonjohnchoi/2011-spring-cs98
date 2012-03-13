@@ -1,0 +1,39 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>WDDBook</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <link href="style_answer.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript">
+      String.prototype.format = function() {
+        var args = arguments;
+        return this.replace(/{(\d+)}/g, function(match, number) { 
+        return typeof args[number] != 'undefined'
+        ? args[number] : match;
+      });};
+
+      $(document).ready(function() {
+        jQuery.ajax({
+        url: "https://graph.facebook.com/me/home?q=facebook&access_token=AAAAAAITEghMBAOIXsUzHMUTtp7ZBMn07oAa6mhno7R5ACvPlMYhLTGsxBoDxjGIwR4wwgxOZCKWQYq0DpEFPMO6YSgIXoSymcPWRfzTxcmtvM9WOJb",
+        dataType: 'jsonp',
+        success: function(response) {
+        //console.log(response);
+        var feeds, i, friendSpan, feedDiv;
+        //console.log("starting forloop");
+        feeds = response.data;
+        for (i in feeds) {
+          friendSpan = "<span class=\"friend_name\">{0}</span>".format(feeds[i].from.name);
+          //console.log(friendSpan);
+          feedDiv = "<div class=\"news_feed_item\">{0} {1}</div>".format(friendSpan, feeds[i].message);
+          //console.log(feedDiv);
+          
+          $("#content").append(feedDiv);                                                               
+      }}});});
+    </script>
+</head>
+<body>
+  <div id="content">
+    <!-- Your Facebook Feed will be generated inside of here!  Don't write any hard-coded HTML here. -->
+  </div>
+</body>
+</html>

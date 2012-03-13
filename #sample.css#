@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	dummy{
+	}
+	
+	/*------------------------------------------------------------------*/
+	/*global styles*/
+	/*------------------------------------------------------------------*/
+	
+	body {	/*the outer layer of the site and global style attributes*/
+	background:#EAEAEA;
+	font-family:Verdana, Geneva, sans-serif;
+    margin-top:0%;
+	margin-left:0%;
+    padding:0%; 
+	font-size:12px;
+	height:100%;
+	}
+	#container {	/*the frame of the site*/
+		background:#EAEAEA;
+		position:relative;
+		margin-left:auto;
+		margin-right:auto;
+		overflow:auto;
+		width:1024px;
+		height:100%;
+	}
+	h2 {	/*headings for Feeds*/
+	font-weight:normal;
+	color:#8CC4E4;
+	}
+	
+	a:link { color: black; text-decoration: none;}
+	a:active { color: red; text-decoration: none;}
+	a:visited { color: black; text-decoration: none;}
+	a:hover { color: #8CC4E4; text-decoration: none;}
+	a.title:link { color:#888888;; text-decoration: none;}	/* style for anchors in headings e.g. linkshead */
+	a.title:active { color:#888888;; text-decoration: none;}
+	a.title:visited { color:#888888;; text-decoration: none;}
+	a.title:hover { color:#888888; text-decoration: none;}
+		
+	
+	/*------------------------------------------------------------------*/
+	/*the left sidebar*/
+	/*------------------------------------------------------------------*/
+	
+	
+	
+	/*------------------------------------------------------------------*/
+	/*the right sidebar and the bottoms sections*/
+	/*------------------------------------------------------------------*/
+	
+	#linkList {	/*the right sidebar - includes sites and labels*/
+	width:180px;
+	position:fixed;
+	z-index:0;
+	background:#FFFFFF;
+	height:800px;
+	margin-top:10px;
+	margin-left:840px;
+	margin-right:5px;
+	box-shadow: 5px 5px 5px #888888;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	}
+	
+	/*the links and the labels*/
+	
+	.select {	/*the header for feed links and feed labels*/
+		margin-right:20px;
+		margin-left:10px;
+		margin-top:20px;
+		padding-bottom:3px;
+		font-size:10px;
+		font-weight:700;
+		color:#888888;
+		border-bottom:thin;
+		border-color:#888888;
+		border-bottom-style:dashed;
+	}
+	#lselect li {	/*the style for lists tag of feed links*/
+		color:#888888;
+		list-style-type:none;
+		font-size:10px;
+		
+	}
+	#lselect li:hover{	/*the style for lists tag of feed links when hovered*/
+		background-color:#F8F8F8;
+	}
+	.archives {	/*the header for feed links and feed labels*/
+		margin-right:20px;
+		margin-left:10px;
+		padding-bottom:3px;
+		font-size:10px;
+		font-weight:700;
+		color:#888888;
+		border-bottom:thin;
+		border-color:#888888;
+		border-bottom-style:dashed;
+	}
+	#larchives li {	/*the style for lists tag of feed links*/
+		color:#888888;
+		list-style-type:none;
+		font-size:10px;
+		
+	}
+	#larchives li:hover{	/*the style for lists tag of feed links when hovered*/
+		background-color:#F8F8F8;
+	}
+	.resources {	/*the header for feed links and feed labels*/
+		margin-right:20px;
+		margin-left:10px;
+		padding-bottom:3px;
+		font-size:10px;
+		font-weight:700;
+		color:#888888;
+		border-bottom:thin;
+		border-color:#888888;
+		border-bottom-style:dashed;
+	}
+	#lresources li {	/*the style for lists tag of feed links*/
+		color:#888888;
+		list-style-type:none;
+		font-size:10px;
+		
+	}
+	#lresources li:hover{	/*the style for lists tag of feed links when hovered*/
+		background-color:#F8F8F8;
+	}
+	#labels {	/*the feed labels*/
+		padding-top:5px;
+		margin:0px;
+		padding-left:10px;
+	}
+	#labels li {	/*the style for lists tag of feed links*/
+		color:#888888;
+		list-style-type:none;
+		
+	}
+	#labels li:hover{	/*the style for lists tag of feed links when hovered*/
+		background-color:#F8F8F8;
+	}
+	
+	
+	
+	/*------------------------------------------------------------------*/
+	/*the content section*/
+	/*------------------------------------------------------------------*/
+	#intro {	/*The middle section, i.e. contents*/
+	position:relative;
+	float:left;
+	padding-left:20px;
+	padding-right:20px;
+	background:#FFFFFF;
+	width:720px;
+	overflow:hidden;
+	box-shadow: -5px 0px 5px #888888, 5px 0px 5px  #888888;
+	height:400px;
+	margin-left:75px;
+	z-index:1;
+	}
+	#explanation{
+		border-bottom-color:#857c78;
+		border-bottom:thin;
+		border-bottom-style:solid;
+	}
+	#participation{
+		border-bottom-color:#857c78;
+		border-bottom:thin;
+		border-bottom-style:solid;
+	}
+	#benefits{
+		border-bottom-color:#857c78;
+		border-bottom:thin;
+		border-bottom-style:solid;
+	}
+	#requirements{
+	}
+	#supportingText {	/*The middle section, i.e. contents*/
+	position:relative;
+	clear:left;
+	float:left;
+	padding-left:20px;
+	padding-right:20px;
+	background:#FFFFFF;
+	width:720px;
+	overflow:hidden;
+	box-shadow: -5px 0px #888888, 5px 0px #888888;
+	height:1000px;
+	margin-left:75px;
+	z-index:1;
+	}
+	#footer {
+		margin-top:200px;
+		margin-left:300px;
+		font-size:10px;
+	}
+	
