@@ -1,0 +1,27 @@
+<!DOCTYPE>
+<html>
+
+  <head>
+    <title>WDD Lab 8: WDDoubler</title>
+    <link rel="stylesheet" href="{{ static_url('style.css') }}" type="text/css"/>
+  </head>
+
+  <body>
+
+    <a href="/">&larr;Do it again</a>
+
+    <div id="doubler">
+
+      <div class="vid left">
+        i use v1_url
+      </div>
+
+      <div class="vid right">
+        i use v2_url
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

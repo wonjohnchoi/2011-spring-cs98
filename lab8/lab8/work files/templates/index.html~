@@ -1,0 +1,13 @@
+<!DOCTYPE>
+<html>
+
+  <head>
+    <title>WDD Lab 8: WDDoubler</title>
+    <link rel="stylesheet" href="{{ static_url('style.css') }}" type="text/css"/>
+  </head>
+
+  <body>
+    Put a form here!
+  </body>
+
+</html>
