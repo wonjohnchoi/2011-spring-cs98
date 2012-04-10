@@ -1,0 +1,11 @@
+CREATE DATABASE twitterDB
+CREATE TABLE users (username varchar(255), email varchar(255), password varchar(255), birthdata date, gender char(1), uid int)
+CREATE TABLE tweets (data text, time datetime, uid int, user users, tid int)
+CREATE TABLE hashtags (name varchar(255), hid int)
+CREATE TABLE hashtagTotweets (tid int, hid int)
+
+SELECT * FROM users
+SELECT * FROM tweets WHERE uid = input
+SELECT * FROM 
+SELECT * from hashtags WHERE hid =
+       SELECT hid from hashtagToweets WHERE tid = input
